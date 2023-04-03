@@ -30,6 +30,7 @@
 - Insertion Sort
 - Quick Sort
 - Merge Sort
+- Heap Sort
 ## 6. Divide and Conquer Algorithm
 ## 7. Stack
 ## 8. Queue
