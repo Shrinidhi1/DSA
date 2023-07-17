@@ -31,34 +31,33 @@
 - Quick Sort
 - Merge Sort
 - Heap Sort
-## 6. Divide and Conquer Algorithm
-## 7. Stack
-## 8. Queue
+## 6. Stack
+## 7. Queue
 - Circular queue
 - Double-ended queue (or known as deque)
 - Priority queue 
-## 9. Tree Data Structure
+## 8. Tree Data Structure
 - Binary Search tree
 - Ternary Search tree
 - N-ary Search tree
-## 10. Graph Data Structure
+## 9. Graph Data Structure
 - BFS
 - DFS
 - Cycles in a graph
 - Topological sorting in the graph
 - Minimum Spanning tree in graph
-## 11. Greedy methodology
+## 10. Greedy methodology
 - Standard greedy algorithms
 - Greedy algorithms in graphs
 - Greedy Algorithms in Operating Systems
 - Greedy algorithms in array
 - Approximate greedy algorithms for NP-complete problems
-## 12. Recursion
+## 11. Recursion
 - Tree traversals
 - Graph traversals
 - Divide and Conquers Algorithms
 - Backtracking algorithms 
-## 13. Backtracking Algorithm
+## 12. Backtracking Algorithm
 - Knight’s tour problem
 - Rat in a maze
 - N-Queen problem
@@ -66,4 +65,14 @@
 - m-coloring problem
 - Hamiltonian cycle
 - Sudoku
-## 14. Dynamic Programming
+## 13. Dynamic Programming
+- Longest Common Subsequence
+- Longest Increasing Subsequence
+- Edit Distance
+- Minimum Partition
+- Ways to Cover a Distance
+- Longest Path In Matrix
+- Subset Sum Problem
+- Optimal Strategy for a Game
+- 0-1 Knapsack Problem
+- Assembly Line Scheduling
