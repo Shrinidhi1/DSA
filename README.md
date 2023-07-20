@@ -40,7 +40,8 @@
 ## 9. Bit Manipulation
 - Convert int to binary and vice versa
 - Count 0s and 1s in binary number
-- Toggle nth bit
+- Toggle kth bit
+- Add and subtract 2 binary numbers
 ## 10. Tree Data Structure
 - Binary Search tree
 - Ternary Search tree
