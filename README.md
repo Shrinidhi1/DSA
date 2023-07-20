@@ -37,32 +37,32 @@
 - Circular queue
 - Double-ended queue (or known as deque)
 - Priority queue
-## Bit Manipulation
+## 9. Bit Manipulation
 - Convert to int to binary and vice versa
 - Count 0s and 1s in binary number
 - Toggle nth bit
-## 9. Tree Data Structure
+## 10. Tree Data Structure
 - Binary Search tree
 - Ternary Search tree
 - N-ary Search tree
-## 10. Graph Data Structure
+## 11. Graph Data Structure
 - BFS
 - DFS
 - Cycles in a graph
 - Topological sorting in the graph
 - Minimum Spanning tree in graph
-## 11. Greedy methodology
+## 12. Greedy methodology
 - Standard greedy algorithms
 - Greedy algorithms in graphs
 - Greedy Algorithms in Operating Systems
 - Greedy algorithms in array
 - Approximate greedy algorithms for NP-complete problems
-## 12. Recursion
+## 13. Recursion
 - Tree traversals
 - Graph traversals
 - Divide and Conquers Algorithms
 - Backtracking algorithms 
-## 13. Backtracking Algorithm
+## 14. Backtracking Algorithm
 - Knight’s tour problem
 - Rat in a maze
 - N-Queen problem
@@ -70,7 +70,7 @@
 - m-coloring problem
 - Hamiltonian cycle
 - Sudoku
-## 14. Dynamic Programming
+## 15. Dynamic Programming
 - Longest Common Subsequence
 - Longest Increasing Subsequence
 - Edit Distance
