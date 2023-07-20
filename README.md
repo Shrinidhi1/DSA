@@ -36,7 +36,11 @@
 ## 8. Queue
 - Circular queue
 - Double-ended queue (or known as deque)
-- Priority queue 
+- Priority queue
+## Bit Manipulation
+- Convert to int to binary and vice versa
+- Count 0s and 1s in binary number
+- Toggle nth bit
 ## 9. Tree Data Structure
 - Binary Search tree
 - Ternary Search tree
