@@ -38,7 +38,7 @@
 - Double-ended queue (or known as deque)
 - Priority queue
 ## 9. Bit Manipulation
-- Convert to int to binary and vice versa
+- Convert int to binary and vice versa
 - Count 0s and 1s in binary number
 - Toggle nth bit
 ## 10. Tree Data Structure
