@@ -43,6 +43,9 @@
 - Toggle kth bit
 - Add and subtract 2 binary numbers
 - Check if it is power of 2
+- XOR from 1 to n
+- All bits are set
+- Bits in alternate pattern
 ## 10. Tree Data Structure
 - Binary Search tree
 - Ternary Search tree
