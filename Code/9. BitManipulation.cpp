@@ -142,6 +142,17 @@ bool bitsAreInAltOrder(int n)
     return allBitsAreSet(num);
 }
 
+int countTrailingZeroes(int n) 
+{
+    int count = 0;
+    while ((n & 1) == 0) 
+    {
+        count++;
+        n >>= 1;
+    }
+    return count;
+}
+
 int main()
 {
     int n = 37;
@@ -160,5 +171,6 @@ int main()
     cout << xorFrom1toN(n) << endl;
     cout << allBitsAreSet(n) << endl;
     cout << bitsAreInAltOrder(n) << endl;
+    cout << countTrailingZeroes(n) << endl;
     return 0;
 }
