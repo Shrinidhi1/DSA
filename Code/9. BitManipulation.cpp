@@ -153,6 +153,19 @@ int countTrailingZeroes(int n)
     return count;
 }
 
+int reverseBits(int n) 
+{
+    int result = 0;
+    int bitSize = sizeof(n) * 8;
+    for (int i = 0; i < bitSize; i++) 
+    {
+        result <<= 1;
+        result |= n & 1; 
+        n >>= 1;
+    }
+    return result;
+}
+
 int main()
 {
     int n = 37;
@@ -172,5 +185,6 @@ int main()
     cout << allBitsAreSet(n) << endl;
     cout << bitsAreInAltOrder(n) << endl;
     cout << countTrailingZeroes(n) << endl;
+    cout << reverseBits(n) << endl;
     return 0;
 }
