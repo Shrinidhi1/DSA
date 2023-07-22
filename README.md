@@ -46,6 +46,8 @@
 - XOR from 1 to n
 - All bits are set
 - Bits in alternate pattern
+- Count of trailing zeroes
+- Reverse bits
 ## 10. Tree Data Structure
 - Binary Search tree
 - Ternary Search tree
