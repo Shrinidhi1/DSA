@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Ω(n), Θ(n^2), O(n^2)
 void bubbleSort(int a[], int n)
 {
     int i, j, temp;
@@ -18,6 +19,7 @@ void bubbleSort(int a[], int n)
     }
 }
 
+// Ω(n^2), Θ(n^2), O(n^2)
 void selectionSort(int a[], int n)
 {
     int i, j, min, temp;
@@ -33,19 +35,17 @@ void selectionSort(int a[], int n)
     }
 }
 
-void insertionSort(int a[], int n)
+// Ω(n), Θ(n^2), O(n^2)
+void insertionSort(int arr[], int n)
 {
-    int i, j, v, temp;
-    for (i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
-        v = a[i];
-        j = i - 1;
-        while (j >= 0 && a[j] > v)
+        int j = i;
+        while (j > 0 && arr[j - 1] > arr[j])
         {
-            a[j + 1] = a[j];
+            swap(arr[j], arr[j - 1]);
             j--;
         }
-        a[j + 1] = v;
     }
 }
 
@@ -69,6 +69,7 @@ int partition(int a[], int first, int last)
     return end;
 }
 
+// Ω(nlogn), Θ(nlogn), O(n^2)
 void quickSort(int a[], int start, int last)
 {
     if (start < last)
@@ -129,6 +130,7 @@ void merge(int a[], int l, int m, int h)
     }
 }
 
+// Ω(nlogn), Θ(nlogn), O(nlogn)
 void mergeSort(int a[], int l, int h)
 {
     int m;
@@ -148,6 +150,7 @@ void swap(int &a, int &b)
     b = temp;
 }
 
+// Ω(nlogn), Θ(nlogn), O(nlogn)
 void heapify(int *a, int n, int i)
 {
     int maxindex = i;
