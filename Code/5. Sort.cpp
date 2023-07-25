@@ -36,7 +36,7 @@ void selectionSort(int a[], int n)
 void insertionSort(int a[], int n)
 {
     int i, j, v, temp;
-    for (i = 0; i <= n - 1; i++)
+    for (i = 0; i < n; i++)
     {
         v = a[i];
         j = i - 1;
