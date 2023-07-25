@@ -5,6 +5,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Ω(1), Θ(n), O(n)
 int linearSearch(int arr[], int N, int k)
 {
     for (int i = 0; i < N; i++)
@@ -13,7 +14,24 @@ int linearSearch(int arr[], int N, int k)
     return -1;
 }
 
+// Ω(1), Θ(logn), O(logn)
 int binarySearch1(int arr[], int n, int k)
+{
+    int l = 0, r = n - 1, mid;
+    while (l <= r)
+    {
+        int m = (l + r) / 2;
+        if (arr[m] == k)
+            return m;
+        if (arr[m] < k)
+            l = m + 1;
+        else
+            r = m - 1;
+    }
+    return -1;
+}
+
+int binarySearch2(int arr[], int n, int k)
 {
     int lo = 0, hi = n - 1, mid;
     while (hi - lo > 1)
@@ -29,22 +47,6 @@ int binarySearch1(int arr[], int n, int k)
     else if (arr[hi] == k)
         return hi;
 
-    return -1;
-}
-
-int binarySearch2(int arr[], int n, int k)
-{
-    int l = 0, r = n - 1, mid;
-    while (l <= r)
-    {
-        int m = l + (r - l) / 2;
-        if (arr[m] == k)
-            return m;
-        if (arr[m] < k)
-            l = m + 1;
-        else
-            r = m - 1;
-    }
     return -1;
 }
 
