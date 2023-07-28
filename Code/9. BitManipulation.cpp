@@ -166,6 +166,17 @@ int reverseBits(int n)
     return result;
 }
 
+int xorrSubsets(int arr[], int n)
+{
+    if (n % 2 == 0)
+        return 0;
+    int xorr = arr[0];
+    for (int i = 2; i < n; i += 2)
+        xorr ^= arr[i];
+    return xorr;
+}
+
+
 int main()
 {
     int n = 37;
@@ -184,7 +195,8 @@ int main()
     cout << xorFrom1toN(n) << endl;
     cout << allBitsAreSet(n) << endl;
     cout << bitsAreInAltOrder(n) << endl;
-    cout << countTrailingZeroes(n) << endl;
-    cout << reverseBits(n) << endl;
+    int arr[] = {1, 5, 3, 4, 7, 2, 9};
+    int size = 7;
+    cout << xorrSubsets(arr, size);
     return 0;
 }
