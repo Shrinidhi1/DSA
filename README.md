@@ -48,6 +48,7 @@
 - Bits in alternate pattern
 - Count of trailing zeroes
 - Reverse bits
+- Game of XOR (xor of all subsets' xorr)
 ## 10. Tree Data Structure
 - Binary Search tree
 - Ternary Search tree
